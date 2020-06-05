@@ -18,29 +18,29 @@ theme = "sada"
     [params.social]
         title = "Links"
 
-        [[params.social.list]]
-        class = "fab"
-        icon = "fa-linkedin-in"
-        url = "#"
-        title = "LinkedIn"
+#        [[params.social.list]]
+#        class = "fab"
+#        icon = "fa-linkedin-in"
+#        url = "#"
+#        title = "LinkedIn"
 
         [[params.social.list]]
         class = "fab"
         icon = "fa-github"
-        url = "#"
+        url = "https://github.com/SeewooLi"
         title = "GitHub"
 		
-		[[params.social.list]]
-        class = "ai"
-        icon = "ai-google-scholar"
-        url = "#"
-        title = "Google Scholar"
-		
-		[[params.social.list]]
-        class = "ai"
-        icon = "ai-researchgate"
-        url = "#"
-        title = "ResearchGate"		
+#		[[params.social.list]]
+#        class = "ai"
+#        icon = "ai-google-scholar"
+#        url = "#"
+#        title = "Google Scholar"
+#		
+#		[[params.social.list]]
+#        class = "ai"
+#        icon = "ai-researchgate"
+#        url = "#"
+#        title = "ResearchGate"		
 
     # Education section
     [params.education]
@@ -92,7 +92,7 @@ theme = "sada"
         title = "Aims"
 
         [[params.jobs.list]]
-        position = "Understanding *Humanities*"
+        position = "Understanding Humanities"
         dates = "Due on August 2020"
 	    details = "Reading books about history, philosophy, literary, "
 
@@ -108,7 +108,7 @@ theme = "sada"
         dates = "Due on June 2020"
 		link = "https://book.naver.com/bookdb/book_detail.nhn?bid=6941188"
         company = "BOOK : Principal Component Analysis"
-        details = "Reading through all of the materials listed. "
+        details = "Reading through all of the materials listed. Pondering how to make use of PCA in Educational Measurement."
 
     # Projects section
     [params.projects]
@@ -116,28 +116,28 @@ theme = "sada"
         title = "Projects"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
+        title = "Structural Equation Model"
         url = "#"
-        description = "Description of the *awesome* project 1"
+        description = "SEM of latent variables of 'Formative Asessment', 'Teacher Student Relationship', 'Self-Efficacy', 'Academic Performance'."
 		
 		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
+        title = "Introduction to Data Science"
+        url = "https://github.com/twg12/IntroToDataScience_5"
+        description = "Visualizing the vulnerable region in terms of 'Emergency Hospital Service'. "
+        
     # Skills section
     [params.skills]
         icon = "fa-cogs"
-        title = "Skills"
+        title = "Accomplishment of Aims"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
+        skill = "Understanding Humanities"
+        skillrating = 30 # out of 100
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "Reviewing Mathematical Statistics"
+        skillrating = 0
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "Understanding overall concepts of PCA"
+        skillrating = 40
