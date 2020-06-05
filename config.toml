@@ -1,0 +1,143 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "sada"
+
+[params]
+    title = "Seewoo Li"
+    author = "Seewoo Li"
+    description = "Curriculum Vitae"
+    copyright = ""
+    copyright_link = ""
+
+    # Profile section
+    [params.profile]
+        name = "Seewoo Li"
+        photo = "images/profile.png"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "#"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "#"
+        title = "GitHub"
+		
+		[[params.social.list]]
+        class = "ai"
+        icon = "ai-google-scholar"
+        url = "#"
+        title = "Google Scholar"
+		
+		[[params.social.list]]
+        class = "ai"
+        icon = "ai-researchgate"
+        url = "#"
+        title = "ResearchGate"		
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "University"
+        college = "Yonsei University"
+        dates = "2014 - present"
+        thesis_title = "Title of the dissertation"
+        thesis_link = "#"
+
+    
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+				
+        [[params.language.list]]
+        language = "Korean"
+        level = "Fluent"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Playing Guitar"
+		
+		[[params.hobbies.list]]
+        interest = "Travelling"
+
+        [[params.hobbies.list]]
+        interest = "Cooking"
+
+        [[params.hobbies.list]]
+        interest = "Ping-Pong"
+
+    [params.aboutme]
+        description = "Currently studying Education and Statistics to contribute to the efforts which has been made by educational reformers to inhance the quality of the education privided to the young."
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Aims"
+
+        [[params.jobs.list]]
+        position = "Understanding *Humanities*"
+        dates = "Due on August 2020"
+	    details = "Reading books about history, philosophy, literary, "
+
+        [[params.jobs.list]]
+        position = "Reviewing Mathematical Statistics"
+        dates = "July 2020 - August 2020"
+		link = "https://book.naver.com/bookdb/book_detail.nhn?bid=7547668"
+        company = "BOOK : Introduction to Mathematical Statistics/ by Robert Hogg"
+        details = "Reviewing topics that has been learned and skimming all the rest."
+        
+        [[params.jobs.list]]
+        position = "Understanding overall concepts of PCA"
+        dates = "Due on June 2020"
+		link = "https://book.naver.com/bookdb/book_detail.nhn?bid=6941188"
+        company = "BOOK : Principal Component Analysis"
+        details = "Reading through all of the materials listed. "
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Awesome Project 1"
+        url = "#"
+        description = "Description of the *awesome* project 1"
+		
+		[[params.projects.list]]
+        title = "Awesome Project 2"
+        url = "#"
+        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Skill 1, Skill 2"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "Skill 3"
+        skillrating = 90
+		
+        [[params.skills.list]]
+        skill = "Skill 4"
+        skillrating = 80
